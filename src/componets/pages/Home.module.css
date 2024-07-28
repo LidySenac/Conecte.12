@@ -20,8 +20,8 @@
  color: #000;
 } 
 
-.img_fundo {
-  width: 1907px;
+.img_fundo { /*1907*/
+  width: 1596px;
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,10 +35,10 @@
 
 
 /*768*/
-/* @media (min-width: 768px){
+@media (min-width: 768px){
   .img_fundo {
-    width: 1189px;    
-    margin-top: -368px;
+    width: 1188px;    
+    margin-top: -380px;
     margin-bottom: 0px;
   }
   .home_container{
@@ -56,12 +56,12 @@
     margin-left: 30px;
     margin-top: 10px;
   } 
-} */
+}
 
 /*1024*/
-/* @media (min-width: 1024px){
+@media (min-width: 1024px){
   .img_fundo {
-    width: 1443px;    
+    width: 1450px;    
     margin-top: -368px;
     margin-bottom: 0px;
   }
@@ -81,10 +81,10 @@
     margin-left: 30px;
     margin-top: 10px;
   } 
-} */
+}
 
 /*1440*/
-/* @media (min-width: 1440px){
+@media (min-width: 1440px){
   .img_fundo {
     width: 1740px;    
     margin-top: -368px;
@@ -106,10 +106,10 @@
     margin-left: 30px;
     margin-top: 10px;
   } 
-} */
+}
 
 /*2560*/
-/* @media (min-width: 2560px){
+@media (min-width: 2560px){
   .img_fundo {
     width: 200px;    
     margin-top: -368px;
@@ -131,10 +131,10 @@
     margin-left: 30px;
     margin-top: 10px;
   } 
-} */
+}
 
 /*1005*/
-/* @media (min-width: 1005px){
+@media (min-width: 1005px){
   .img_fundo {
     width: 1660px;    
     margin-top: -373px;
@@ -156,13 +156,38 @@
     margin-left: 30px;
     margin-top: 10px;
   } 
-} */
+}
+
+/*425*/
+@media (max-width: 425px){
+  .img_fundo {
+    width: 844px;    
+    margin-top: -392px;
+    margin-bottom: 0px;
+  }
+  .home_container{
+    width: 1024px;
+    padding: 0;  
+  } 
+  .home_container h1:first-of-type{
+    justify-content: center;
+    margin-top: 90px;
+    
+  }
+  .home_container h1{
+    margin-left: 10px;
+  }
+  .home_container p{
+    margin-left: 10px;
+    margin-top: 10px;
+  } 
+}
 
 /*375*/
-/* @media (max-width: 375px){
+@media (max-width: 375px){
  
   .home_container{
-    width: 375px;
+    width: 374px;
     padding: 0;    
   } 
   .home_container h1:first-of-type{
@@ -171,13 +196,35 @@
     
   }
   .home_container h1{
-    margin-left: 40px;
+    margin-left: 15px;
   }
   .home_container p{
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 10px;
   } 
   
-} */
+}
+
+/*320*/
+@media (max-width: 320px){
+ 
+  .home_container{
+    width: 320px;
+    padding: 0;    
+  } 
+  .home_container h1:first-of-type{
+    justify-content: center;
+    margin-top: 90px;
+    
+  }
+  .home_container h1{
+    margin-left: 12px;
+  }
+  .home_container p{
+    margin-left: 10px;
+    margin-top: 10px;
+  } 
+  
+}
 
 

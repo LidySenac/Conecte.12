@@ -21,3 +21,9 @@
 .copy_right span {
     font-weight: bold;
 } 
+
+@media (max-width: 320px){
+    .footer {
+        margin-right: -18%;
+    }
+}

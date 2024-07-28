@@ -29,45 +29,68 @@
     color: #d7d3d3;
 }
 
-
-/*480 - 714*/
-/* @media (min-width: 480px){
+/*375*/
+@media (min-width: 375px){
     .navbar {
-        width: 715px;
+        width: 422px;
     }
-  } */
+    .list{        
+        font-size: 5px; 
+    }
+  }
+
+  /*320*/
+@media (min-width: 320px){
+    .navbar {
+        width: 423px;
+    }
+    .list{        
+        font-size: 5px; 
+    }
+  }
+
+
+/*425*/
+@media (min-width: 425px){
+    .navbar {
+        width: 425px;
+    }
+    .list{        
+        font-size: 5px; 
+    }
+  }
 
 /*768*/
-/* @media (min-width: 768px){
+ @media (min-width: 768px){
     .navbar {
         width: 768px;
     }
   }
 
 /*1024*/
-  /* @media (min-width: 1024px){
+  @media (min-width: 1024px){
     .navbar {
         width: 1024px;
     }
-  } */
+  }
 
 /*1440*/
-/* @media (min-width: 1440px){
+@media (min-width: 1440px){
     .navbar {
         width: 1440px;
     }
-  } */
+  }
 
   /*1005*/
-/* @media (min-width: 1005px){
+@media (min-width: 1005px){
     .navbar {
         width: 1280px;
     }
-} */
+}
 
 /*2560*/
-/* @media (min-width: 2560px){
+@media (min-width: 2560px){
     .navbar {
         width: 2560px;
     }
-  } */
+  }
